@@ -181,7 +181,50 @@ body {
   height: 100%;
   pointer-events: none;
 }
-
+/*destacados*/
+.products{
+  display: flex;
+  width: 100%;
+  height: 60rem;
+  padding: 2%;  
+}
+.products-main{
+  position: relative;
+  width: 50%;
+  height: 65%;
+  background-color: var(--lightGrey-color);
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1px 1px #6b6b6b;
+}
+.products-main:hover{
+  transform: scale(1.06);
+  box-shadow: 0 2px 2px #6b6b6b;
+}
+.products-other{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 60%;
+  padding: 1%;
+  flex-wrap:wrap;
+  margin: 1%;
+}
+.products-item{
+  width: 45%;
+  height: 50%;
+  background-color:var(--lightGrey-color);
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 2%;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1px 1px #6b6b6b;
+}
+.products-item:hover{
+  transform: scale(1.1);
+  box-shadow: 0 2px 2px #6b6b6b;
+}
 /* Seccion Servicios destacados*/
 .featured-services {
   width: 100%;
