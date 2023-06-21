@@ -41,6 +41,7 @@ h2{
   font-weight: 600;
   font-size: 35px;
   text-transform: uppercase;
+  text-shadow: 3px 3px 5px #555353;
 }
 p{
   font-size: 18px;
@@ -56,4 +57,5 @@ p{
   line-height: initial;
   text-align: initial;
   letter-spacing: initial;
+  text-shadow: initial;
 }
