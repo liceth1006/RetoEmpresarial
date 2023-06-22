@@ -103,5 +103,166 @@
   background-color: #606468;
 }
 .consultoriasasesorias{
-  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.consultorias{
+  margin-top: 2%;
+  text-align: center;
+  display:inline-block;
+  position: relative;
+  margin-bottom: 10%;
+   
+}
+.asesorias{
+  margin-top: 2%;
+  text-align: center;
+  display:inline-block;
+   position: relative;
+   margin-bottom: 10%;
+  
+  
+}
+
+
+
+.sect-2{
+  background: #ac5ebf25;
+  height: auto;
+  padding: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+.carrusel {
+width: 600px;
+  height: 700px;
+margin:50px auto 0;
+overflow: hidden;
+  box-shadow: 5px 10px 20px#000;
+}
+.carrusel ul {
+display: flex;
+padding: 0;
+width: 400%;
+height: auto;
+animation: slide 60s infinite alternate ease-in-out;
+animation-delay: 5s;
+}
+
+
+.carrusel li {
+width: 100%;
+  height: 500px;
+list-style: none;
+}
+.carrusel img {
+width: 100%;
+  
+}
+@keyframes slide {
+0% {margin-left: 0%;}
+  0% {margin-left: 0%;}
+
+25% {margin-left: -100%;}
+  25% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+  50% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+75% {margin-left: -300%;}
+
+  100% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
+
+
+
+.carrusel2 {
+  width: 600px;
+    height: 700px;
+  margin:50px auto 0;
+  overflow: hidden;
+    box-shadow: 5px 10px 20px#000;
+  }
+  .carrusel2 ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  height: auto;
+  animation: slide 60s infinite alternate ease-in-out;
+  animation-delay: 10s;
+  }
+  
+
+  .carrusel2 li {
+  width: 100%;
+    height: 500px;
+  list-style: none;
+  }
+  .carrusel2 img {
+  width: 100%;
+    
+  }
+  @keyframes slide {
+  0% {margin-left: 0%;}
+    0% {margin-left: 0%;}
+  
+  25% {margin-left: -100%;}
+    25% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+    50% {margin-left: -200%;}
+  
+    75% {margin-left: -300%;}
+  75% {margin-left: -300%;}
+  
+    100% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+  }
+
+.title-promo{
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Bona Nova', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 48px;
+  color: #1193B8;
+  margin-top: 2%;
+
+
+}
+.carru1{
+  height: 100%;
+  width: 100%;
+  background-color: #1193B8;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+/*Textos*/
+/*Titulo*/
+.h2carru{
+  text-align: center;
+  font-family: 'Bona Nova', serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #D9D9D9;
+}
+
+/*Servicios incluidos*/
+.pcarru{
+  margin-left: 10px;
+  width: 90%;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+  color: #D9D9D9;
 }
