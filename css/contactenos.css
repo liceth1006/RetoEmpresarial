@@ -1,15 +1,25 @@
 .contacts{
   padding-top: 10%;
+  color: #ffffff;
 }
-
-
-form {
-  max-width: 400px;
-  margin: 0 auto;
+form{
+  padding: 50px;
+  padding-left: 100px;
 }
-
 label, input, textarea {
   display: block;
   margin-bottom: 10px;
+  width: 400px;
 }
-
+.contacts{
+  padding: 2%;
+  background-color: var(--blue-color);
+  margin-bottom: 5%;
+  margin-top: 15%;
+}
+.cards-contact{
+  display: flex;
+}
+a{
+  color: #ffffff;
+}

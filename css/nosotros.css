@@ -21,7 +21,6 @@
 }
 .cards-about{
 display: flex;
-
 }
 .about-img{
   width: 40vw;
@@ -39,12 +38,12 @@ display: flex;
 }
 h2{
   font-weight: 600;
-  font-size: 35px;
+  font-size: 25px;
   text-transform: uppercase;
   text-shadow: 3px 3px 5px #555353;
 }
 p{
-  font-size: 18px;
+  font-size: 12px;
   line-height: 2;
   letter-spacing: 0.2px;
   text-align: justify;
