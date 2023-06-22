@@ -9,6 +9,60 @@
   --navBar-color: #f7f4f4;
   --red-color: #EA0029;
 }
+.contenedor {
+width: 100%;
+max-width: 10000px;
+margin: 0 auto;
+overflow: hidden;
+
+}
+
+.carrusel {
+  width: 1500px;
+  height: 500px;
+  margin:50px auto 0;
+  overflow: hidden;
+  box-shadow: 5px 10px 20px#000;
+}
+.carrusel ul {
+  display: flex;
+  padding: 0;
+  width: 500%;
+  animation: slide 40s infinite alternate ease-in-out;
+  height: 300px;
+}
+.carrusel li {
+  width: 100%;
+  height: 300px;
+  list-style: none;
+}
+.carrusel img {
+  width: 100%;
+  height: 485px;
+}
+
+@keyframes slide {
+  0% {margin-left: 0%;}
+  0% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  25% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  50% {margin-left: -200%;}
+
+  70% {margin-left: -300%;}
+  70% {margin-left: -300%;}
+
+  80% {margin-left: -400%;}
+  80% {margin-left: -400%;}
+
+  90% {margin-left: -400%;}
+  90% {margin-left: -400%;}
+}
+
+
+
 .target{
   padding: 2%;
   background-color: var(--lightGrey-color);
@@ -21,6 +75,7 @@
 }
 .cards-about{
 display: flex;
+
 }
 .about-img{
   width: 40vw;
@@ -28,33 +83,85 @@ display: flex;
 }
 .about-img img{
   width: 100%;
+  object-fit: cover;
+  position: bottom;
   height: 100%;
   border-radius: 15px;
+  margin-top: 130px;
 }
 .description-about{
   position: relative;
+  left: 10px;
   width: 60%;
   padding: 5%;
 }
 h2{
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: 300;
+  font-size: 35px;
   text-transform: uppercase;
   text-shadow: 3px 3px 5px #555353;
 }
 p{
-  font-size: 12px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.2px;
   text-align: justify;
 }
 .text-services{
   padding: 10px 50px;
+  position: center;
 }
-.card-others>h2, .card-others>p{
-  font-size: initial;
-  line-height: initial;
-  text-align: initial;
-  letter-spacing: initial;
-  text-shadow: initial;
+
+
+.wrapper{
+  margin-top: 60px;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.wrapper h1{
+  font-family: initial, cursive;
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 7px;
+  background: #fff;
+  padding: 50px 10px;
+}
+
+.our_team .team_member .member_img img{
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 12px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
 }
