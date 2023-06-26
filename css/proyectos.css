@@ -112,8 +112,14 @@
   text-align: center;
   display:inline-block;
   position: relative;
-  margin-bottom: 10%;
-   
+  margin-bottom: 10%;  
+}
+.titulo{
+  text-align: center;
+  color: var(--blue-color);
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 35px;
 }
 .asesorias{
   margin-top: 2%;
@@ -121,11 +127,8 @@
   display:inline-block;
    position: relative;
    margin-bottom: 10%;
-  
-  
+   margin-left: 4%;
 }
-
-
 
 .sect-2{
   background: #ac5ebf25;

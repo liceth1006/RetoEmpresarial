@@ -1,7 +1,26 @@
-.contacts{
-  padding-top: 10%;
-  color: #000000;
+.img-contactos{
+  margin-top: 7%;
+  width: 100%;
+  height: 50%;
+  padding-bottom: 45%;
+  position: relative;
+  overflow: hidden;
 }
+.img-contactos img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.contacts h2{
+  text-align: center;
+  color: var(--blue-color);
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 35px;
+}
+
 form{
   padding: 50px;
   background-color: #ffff;
@@ -50,7 +69,6 @@ button{
   padding: 2%;
   background-color: var(--lightBlue-color);
   margin-bottom: 5%;
-  margin-top: 15%;
 }
 .cards-contact{
   display: flex;

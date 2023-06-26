@@ -1,5 +1,5 @@
 :root {
-  --main-font: "Inter", sans-serif;
+  --main-font: 'Roboto', sans-serif;
   --font-size: 1rem;
   --blue-color: #0e1f87;
   --white-color: #ffff;
@@ -14,9 +14,7 @@ width: 100%;
 max-width: 10000px;
 margin: 0 auto;
 overflow: hidden;
-
 }
-
 .carrusel {
   width: 1500px;
   height: 500px;
@@ -61,17 +59,15 @@ overflow: hidden;
   90% {margin-left: -400%;}
 }
 
-
-
 .target{
   padding: 2%;
-  background-color: var(--lightGrey-color);
   margin-bottom: 25%;
   margin-top: 0%;
 }
 .about{
   padding: 2%;
   background-color: var(--lightBlue-color);
+  height: 40vw;
 }
 .cards-about{
 display: flex;
@@ -96,14 +92,13 @@ display: flex;
   padding: 5%;
 }
 h2{
-  font-weight: 300;
-  font-size: 35px;
-  text-transform: uppercase;
-  text-shadow: 3px 3px 5px #555353;
+  text-align: center;
+  color: var(--blue-color);
+  font-size: 2rem;
+  font-weight: 600;
 }
 p{
-  font-size: 18px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.2px;
   text-align: justify;
 }
@@ -111,7 +106,6 @@ p{
   padding: 10px 50px;
   position: center;
 }
-
 
 .wrapper{
   margin-top: 60px;
@@ -164,4 +158,88 @@ p{
   margin-top: 20px;
   font-size: 14px;
   line-height: 20px;
+}
+
+/* mision y vision*/
+.featured-services {
+  width: 100%;
+  padding: 30px;
+
+}
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 5vw;
+}
+.img-services {
+  width: 40vw;
+  height: 30vw;
+}
+.img-services img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.text-services {
+  width: 55vw;
+  height: 26vw;
+  background-color: var(--lightGrey-color);
+  border-radius: 15px;
+  padding: 1rem;
+  overflow: auto;
+  margin-top: 2%;
+  z-index: 1;
+  text-align: center;
+}
+.m-left {
+  margin-left: -2%;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border: thin solid var(--black-color);
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border: var(--white-color);
+}
+
+/*equipo de trabajo */
+.others {
+  display: flex;
+  justify-content: center;
+  height: 60rem;
+  background-color: var(--lightBlue-color);
+  align-items: center;
+}
+.card-others {
+  width: 20rem;
+  height: 30rem;
+  background-color: var(--white-color);
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.card-others img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.pagination {
+  position: absolute;
+  margin-top: 45%;
+}
+.line {
+  width: 60px;
+  margin-right: 1rem;
+  height: 8px;
+  opacity: 1;
+  background-color: var(--blue-color);
+  border-radius: 1rem;
+  display: inline-block;
 }
