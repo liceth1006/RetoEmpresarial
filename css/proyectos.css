@@ -68,6 +68,7 @@
   padding: 4%;
   text-align: center;
   color: var(--white-color);
+  overflow: auto;
   visibility: hidden;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
